@@ -12,7 +12,7 @@ As well as files in a PDS you need some files in USS, for example to define user
 
 I used the ADCD default started task userid of STARTED.   The TDS documentation suggests using GLDSRV.
 
-##PDS files
+## PDS files
 You need to load some files into a PDS (LRECL 80)
 
 - DSCONFIG This is configuration file for small, working LDAP system.  It has a definition for an LDAP data base in the USS file system in directory /var/ldap/ldbm.
@@ -27,7 +27,7 @@ You need to load some files into a PDS (LRECL 80)
     -  It defines some LDAP profiles.
     -  It has definitions (which are not executed) to define the GLDSRV as a started task.   This is not required on ADCD, as the default started task runs OK with default userid STARTED. There is no to create it.
 
-##USS files
+## USS files
 
 Some sample files to get you started
 
