@@ -1,0 +1,5 @@
+dn: o=Your Company
+objectclass: top
+objectclass: organization
+o: Your Company
+

@@ -1,0 +1,14 @@
+dn: cn=ibmuser, o=Your Company
+changetype: delete
+
+dn: cn=ibmuser, o=Your Company
+changetype: add
+objectclass: top
+objectclass: person
+objectclass: organizationalPerson
+objectclass: ibm-nativeAuthentication
+cn: LDAP Administrator
+sn: Administrator
+ibm-nativeId: IBMUSER
+aclEntry: access-id:cn=ibmuser, o=Your Company:normal:rwsc
+

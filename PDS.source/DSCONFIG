@@ -1,0 +1,18 @@
+#adminDN "cn=ibmuser, o=Your Company"
+adminDN "cn=Admin"
+adminPW secret
+commThreads 10
+listen ldap://:389
+maxConnections 65535
+sendV3StringsOverV2As UTF-8
+sizeLimit 500
+timeLimit 3600
+validateIncomingV2strings on
+#
+database LDBM GLDBLD31/GLDBLD64
+# useNativeAuth SELECTED
+useNativeAuth all
+#nativeAuthSubtree o="Your Company"
+# nativeUpdateAllowed ON
+suffix "o=Your Company"
+databaseDirectory /var/ldap/ldbm
